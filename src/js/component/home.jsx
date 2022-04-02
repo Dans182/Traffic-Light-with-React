@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import TrafficLight from "../component/TrafficLight.jsx";
 
 //create your first component
@@ -9,13 +9,11 @@ let luzVerde = <i className="fas fa-circle text-success"></i>;
 const Home = () => {
 	return (
 		<div className="container mt-5">
-			<div className="row justify-content-center">
-				<TrafficLight
-					icono={luzRoja}
-					icono2={luzAmarilla}
-					icono3={luzVerde}
-				/>
-			</div>
+			<TrafficLight
+				icono={luzRoja}
+				icono2={luzAmarilla}
+				icono3={luzVerde}
+			/>
 		</div>
 	);
 };
