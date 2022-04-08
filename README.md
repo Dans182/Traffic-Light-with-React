@@ -1,3 +1,11 @@
+En el proyecto, debíamos elaborar un semáforo con React, haciendo uso del useState.
+
+El semaforo se elaboró en su mayoría en Bootstrap y posteriormente, para la lógica, se realizó un useState, que encendería el semaforo al hacer click en alguna de las 3 luces.
+
+De esta manera, al hacer click, se enciende la luz y cambia el useState actual. El efecto se visualiza a través de la implementación de una clase de css ya establecida, que modifica la opacidad y el border radius cuando se le hace click (cambia el State).
+
+
+
 # Hello World with React boilerplate
 <p>
   <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
