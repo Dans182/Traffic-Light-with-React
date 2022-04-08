@@ -30,8 +30,19 @@ i {
 
 }
 
-.prueba1{
+.encendido{
 box-shadow: 0px 0px 9px 4px #747DE8;
 opacity: 1;
 }
 
+.stick{
+    padding: none;
+    width: 20px;
+    height: 100px;
+    background-color: black; 
+
+}
+
+.box{
+    background-color: black; 
+}

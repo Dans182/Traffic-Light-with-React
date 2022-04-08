@@ -4,35 +4,38 @@ const Home = () => {
 	const [seleccion, setSeleccion] = useState();
 
 	return (
-		<div className="container mt-5">
-			<div className="row justify-content-center">
-				<div
-					className="card bg-dark justify-content-center "
-					style={{ width: "5rem", height: "15rem" }}>
+		<div>
+			<div className="stick container"></div>
+			<div className="container">
+				<div className="row justify-content-center">
 					<div
-						onClick={() => {
-							setSeleccion("red");
-						}}
-						className={
-							"luz bg-danger" +
-							(seleccion === "red" ? " prueba1" : "")
-						}></div>
-					<div
-						onClick={() => {
-							setSeleccion("yellow");
-						}}
-						className={
-							"luz bg-warning" +
-							(seleccion === "yellow" ? " prueba1" : "")
-						}></div>
-					<div
-						onClick={() => {
-							setSeleccion("green");
-						}}
-						className={
-							"luz bg-success" +
-							(seleccion === "green" ? " prueba1" : "")
-						}></div>
+						className="box card justify-content-center"
+						style={{ width: "5rem", height: "15rem" }}>
+						<div
+							onClick={() => {
+								setSeleccion("red");
+							}}
+							className={
+								"luz mx-auto bg-danger" +
+								(seleccion === "red" ? " encendido" : "")
+							}></div>
+						<div
+							onClick={() => {
+								setSeleccion("yellow");
+							}}
+							className={
+								"luz mx-auto bg-warning" +
+								(seleccion === "yellow" ? " encendido" : "")
+							}></div>
+						<div
+							onClick={() => {
+								setSeleccion("green");
+							}}
+							className={
+								"luz mx-auto bg-success" +
+								(seleccion === "green" ? " encendido" : "")
+							}></div>
+					</div>
 				</div>
 			</div>
 		</div>
